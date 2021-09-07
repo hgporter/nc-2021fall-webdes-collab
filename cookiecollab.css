@@ -2,17 +2,39 @@ body{
 	background-image: linear-gradient(#fff3f3, #ffe0e0 40%, #fb9e9a);
 	font-size: 17px;
 	font-family: garamond;
-	height: auto;
+	height: 1220px;
 }
 #container{
 	width: 1100px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #fff;
-	height: auto;
+	height: 1200px;
 }
-table{
-	margin: 20px;
+h1{
+	text-align: center;
+	margin-bottom: 10px;
+}
+#cart{
+	float: right;
+	margin-top: -50px;
+	margin-right: 10px;
+}
+h2{
+	margin-left: 70px;
+}
+img{
+	margin-left: 20px;
+}
+#location-box {
+	background-color: #faf2e1;
+	width: 800px;
+	height: 250px;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	margin-top: 30px;
 }
 table th{
 	text-align: center;
@@ -20,23 +42,108 @@ table th{
 table td{
 	text-align: justify;
 }
-h1{
-	text-align: center;
-	margin-bottom: 10px;
+#left-side {
+	float: left;
+	width:  370;
+	margin:  10px;
+	text-align: left;
+}
+
+#right-side {
+	float: left;
+	width:  370;
+	margin:  10px;
+	text-align: left;
+}
+#option-1{
+	position: absolute;
+	left: 80px;
+	top: 550px;
+}
+#list{
+	text-align: left;
+	width: 250px;
+	position: absolute;
+	left: 350px;
+	top: 560px;
+}
+#list li{
+	list-style-type: none;
+	margin: 10px;
+}
+#list2{
+	text-align: left;
+	width: 250px;
+	position: absolute;
+	left: 900px;
+	top: 560px;
+}
+#list2 li{
+	list-style-type: none;
+	margin: 10px;
+}
+#option-2{
+	position: absolute;
+	left: 650px;
+	top: 560px;
+}
+#option-3{
+	position: absolute;
+	left: 80px;
+	top: 850px;
+}
+#list3{
+	text-align: left;
+	width: 250px;
+	position: absolute;
+	left: 350px;
+	top: 860px;
+}
+#list3 li{
+	list-style-type: none;
+	margin: 10px;
+}
+#option-4{
+	position: absolute;
+	left: 650px;
+	top: 850px;
+}
+#list4{
+	text-align: left;
+	width: 250px;
+	position: absolute;
+	left: 900px;
+	top: 860px;
+}
+#list4 li{
+	list-style-type: none;
+	margin: 10px;
+}
+button.addcart {
+	color: white;
+	padding: 9px;
+	border-radius: 6px;
+	font-size: 21px;
+	font-family: garamond; 
+	background-image: linear-gradient(#96A82C 0%, #789B2C 51%, #456F18 100%);
+	box-shadow: rgba(0, 0, 0, 0.35) 7px 7px 4px 0px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+button.addcart:hover {
+background: #96A82C;
+}
+
+button.addcart:active {
+background: #456F18;
 }
 footer{
+	position: absolute;
+	top: 1185px;
+	width: 1080px;
 	text-align: center;
 	background-color: #fff3f3;
 	padding: 10px;
 	color: #707070;
-}
-#location{
-	background-color: #faf2e1;
-	width: 170px;
-	text-align: center;
-	border-radius: 20px;
-	margin-left: 20px;
-	margin-bottom: 20px;
-	padding: 1px;
-
 }
