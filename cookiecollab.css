@@ -33,7 +33,7 @@ img{
 	border-radius: 15px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 10px;
+	padding: 0px;
 	margin-top: 30px;
 }
 table th{
@@ -50,7 +50,7 @@ table td{
 }
 
 #right-side {
-	float: left;
+	float: right;
 	width:  370;
 	margin:  10px;
 	text-align: left;
@@ -58,14 +58,14 @@ table td{
 #option-1{
 	position: absolute;
 	left: 80px;
-	top: 550px;
+	top: 540px;
 }
 #list{
 	text-align: left;
 	width: 250px;
 	position: absolute;
 	left: 350px;
-	top: 560px;
+	top: 550px;
 }
 #list li{
 	list-style-type: none;
@@ -76,7 +76,7 @@ table td{
 	width: 250px;
 	position: absolute;
 	left: 900px;
-	top: 560px;
+	top: 550px;
 }
 #list2 li{
 	list-style-type: none;
@@ -85,19 +85,19 @@ table td{
 #option-2{
 	position: absolute;
 	left: 650px;
-	top: 560px;
+	top: 540px;
 }
 #option-3{
 	position: absolute;
 	left: 80px;
-	top: 850px;
+	top: 840px;
 }
 #list3{
 	text-align: left;
 	width: 250px;
 	position: absolute;
 	left: 350px;
-	top: 860px;
+	top: 850px;
 }
 #list3 li{
 	list-style-type: none;
@@ -106,14 +106,14 @@ table td{
 #option-4{
 	position: absolute;
 	left: 650px;
-	top: 850px;
+	top: 840px;
 }
 #list4{
 	text-align: left;
 	width: 250px;
 	position: absolute;
 	left: 900px;
-	top: 860px;
+	top: 850px;
 }
 #list4 li{
 	list-style-type: none;
@@ -125,19 +125,20 @@ button.addcart {
 	border-radius: 6px;
 	font-size: 21px;
 	font-family: garamond; 
-	background-image: linear-gradient(#96A82C 0%, #789B2C 51%, #456F18 100%);
+	background-image: linear-gradient(#e8cda5 0%, #bda177 51%, #856c46 100%);
 	box-shadow: rgba(0, 0, 0, 0.35) 7px 7px 4px 0px;
 	display: inline-block;
 	cursor: pointer;
 }
 
 button.addcart:hover {
-background: #96A82C;
+background: #e8cda5;
 }
 
 button.addcart:active {
-background: #456F18;
+background: #856c46;
 }
+
 footer{
 	position: absolute;
 	top: 1185px;
