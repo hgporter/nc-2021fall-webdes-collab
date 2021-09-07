@@ -58,14 +58,14 @@ table td{
 #option-1{
 	position: absolute;
 	left: 80px;
-	top: 540px;
+	top: 520px;
 }
 #list{
 	text-align: left;
 	width: 250px;
 	position: absolute;
 	left: 350px;
-	top: 550px;
+	top: 530px;
 }
 #list li{
 	list-style-type: none;
@@ -76,7 +76,7 @@ table td{
 	width: 250px;
 	position: absolute;
 	left: 900px;
-	top: 550px;
+	top: 530px;
 }
 #list2 li{
 	list-style-type: none;
@@ -85,7 +85,7 @@ table td{
 #option-2{
 	position: absolute;
 	left: 650px;
-	top: 540px;
+	top: 520px;
 }
 #option-3{
 	position: absolute;
